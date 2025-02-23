@@ -1,0 +1,8 @@
+#introduction {
+  min-width: 300px; /* Adjust this width as per your design */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  flex-direction: column;
+}
