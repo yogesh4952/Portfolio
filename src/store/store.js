@@ -7,6 +7,9 @@ const useBlogStore = create((set) => ({
     loading: false,
     singleBlog: {},
 
+    repos:[],
+    singleRepo:{},
+
     // Increment function for testing Zustand state updates
 
     // Fetch all blogs
@@ -25,6 +28,8 @@ const useBlogStore = create((set) => ({
             set({ loading: false });
         }
     },
+
+   
 
 
 

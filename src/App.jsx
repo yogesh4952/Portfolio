@@ -4,6 +4,7 @@ import Home from "./Components/Home";
 import Footer from "./Components/Footer";
 import Blog from "./Components/Blog";
 import SingleBlog from "./Components/SingleBlog";
+import Project from "./Components/Project";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/blog/:id" element={<SingleBlog />} />
+        <Route path="/project" element = {<Project/>}/>
       </Routes>
       <Footer />
     </div>
